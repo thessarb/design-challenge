@@ -4,7 +4,7 @@ body{
 
 .big{
     display: flex;
-    height: 100%;
+    /*height: 100vh;*/
     justify-content: center;
     align-items: center;
 }
@@ -43,6 +43,8 @@ body{
     margin-bottom: 20px;
     margin-right: min(20px);
     margin-left: min(20px);
+    box-shadow: 0 0 55px #05080f;
+    background: linear-gradient(135deg, rgba(35,38,81,1) 0%, rgba(18,20,53,1) 100%);
 }
 
 .boardsmall{
@@ -68,33 +70,39 @@ body{
 .work{
     background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-work.svg");
     background-color: #ff8b64;
+    box-shadow: 0 0 55px #05080f;
 }
 
 .play{
     background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-play.svg");
     background-color: #56c2e6;
+    box-shadow: 0 0 55px #05080f;
 }
 
 .study{
     background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-study.svg");
     background-color: #ff5e7d;
+    box-shadow: 0 0 55px #05080f;
 }
 
 .exercise{
     background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-exercise.svg");
     background-color: #4bcf83;
     background-position-y: 0%;
+    box-shadow: 0 0 55px #05080f;
 }
 
 .social {
     background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-social.svg");
     background-color: #7235d1;
+    box-shadow: 0 0 55px #05080f;
 }
 
 .selfcare{
     background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-self-care.svg");
     background-color: #f1c75b;
+    box-shadow: 0 0 55px #05080f;
 }
 .cardgradient{
-    background: linear-gradient(to bottom, #1d204b. #000000);
+    background: linear-gradient(135deg, rgba(35,38,81,1) 0%, rgba(18,20,53,1) 100%);
 }
