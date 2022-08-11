@@ -1,10 +1,8 @@
 .play{
-    background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-play.svg");
     width: 300px;
     height: 300px;
     background-repeat: no-repeat;
     background-position-x: 90%;
-    background-color: #56c2e6;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;

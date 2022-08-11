@@ -1,12 +1,86 @@
-@import "container.css";
-@import "board.css";
-@import "exercise.css";
-@import "play.css";
-@import "selfcare.css";
-@import "social.css";
-@import "study.css";
-@import "work.css";
-
 body{
     background-color: #0d1323;
+}
+
+.container{
+    position: center;
+    max-width: 1520px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container1{
+    max-width: 1020px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containersmall{
+    height: 82%;
+    background-color: #1d204b;
+    border-radius: 17px;
+    position: relative;
+    top: 18%;
+}
+
+.board{
+    width: 300px;
+    background-color: #1d204b;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: min(10px);
+    margin-left: min(10px);
+}
+
+.boardsmall{
+    height: 70%;
+    background-color: #5746ea;
+    border-radius: 17px;
+}
+
+.cards{
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: min(20px);
+    margin-left: min(20px);
+}
+
+.work{
+    background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-work.svg");
+    background-color: #ff8b64;
+}
+
+.play{
+    background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-play.svg");
+    background-color: #56c2e6;
+}
+
+.study{
+    background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-study.svg");
+    background-color: #ff5e7d;
+}
+
+.exercise{
+    background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-exercise.svg");
+    background-color: #4bcf83;
+}
+
+.social {
+    background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-social.svg");
+    background-color: #7235d1;
+}
+
+.selfcare{
+    background-image: url("/users/arb/desktop/time-tracking-dashboard-main/data/images/icon-self-care.svg");
+    background-color: #f1c75b;
 }
