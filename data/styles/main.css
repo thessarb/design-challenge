@@ -14,7 +14,7 @@ body{
     max-width: 1520px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: space-around;
 }
 
@@ -37,6 +37,7 @@ body{
 
 .board{
     width: 300px;
+    height: auto;
     background-color: #1d204b;
     border-radius: 20px;
     margin-top: 20px;
@@ -109,7 +110,8 @@ body{
 
 @media (min-width:1051px; max-width: 1390px) {
     .board{
-        width: 980px;
+        max-height: 300px;
+        max-width: 980px;
         background-color: #1d204b;
         border-radius: 20px;
         margin-top: 20px;
@@ -120,9 +122,35 @@ body{
 }
 
 @media (min-width:711px; max-width: 1050px) {
-
+    .board{
+        display: flex;
+    }
 }
 
 @media (max-width: 710px) {
-
+    .cards{
+        height: 170px;
+    }
+    .containersmall{
+        height: 78%;
+        background-color: #1d204b;
+        border-radius: 17px;
+        position: relative;
+        top: 22%;
+    }
+    .work{
+        background-position-y: -10px;
+    }
+    .play{
+        background-position-y: -5px;
+    }
+    .study{
+        background-position-y: -8px;
+    }
+    .social{
+        background-position-y: -15px;
+    }
+    .selfcare{
+        background-position-y: -15px;
+    }
 }
