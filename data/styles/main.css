@@ -1,0 +1,12 @@
+@import "container.css";
+@import "board.css";
+@import "exercise.css";
+@import "play.css";
+@import "selfcare.css";
+@import "social.css";
+@import "study.css";
+@import "work.css";
+
+body{
+    background-color: #0d1323;
+}
