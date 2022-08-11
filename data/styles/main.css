@@ -11,7 +11,6 @@ body{
 
 .container{
     position: center;
-    max-width: 1520px;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -37,7 +36,6 @@ body{
 
 .board{
     width: 300px;
-    height: auto;
     background-color: #1d204b;
     border-radius: 20px;
     margin-top: 20px;
@@ -50,7 +48,7 @@ body{
 
 .boardsmall{
     height: 70%;
-    background-color: #5746ea;
+    background: linear-gradient(135deg, rgba(87,70,234,1) 0%, rgba(46,37,125,1) 100%);
     border-radius: 17px;
 }
 
