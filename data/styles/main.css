@@ -106,3 +106,23 @@ body{
 .cardgradient{
     background: linear-gradient(135deg, rgba(35,38,81,1) 0%, rgba(18,20,53,1) 100%);
 }
+
+@media (min-width:1051px; max-width: 1390px) {
+    .board{
+        width: 980px;
+        background-color: #1d204b;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: min(20px);
+        margin-left: min(20px);
+    }
+}
+
+@media (min-width:711px; max-width: 1050px) {
+
+}
+
+@media (max-width: 710px) {
+
+}
