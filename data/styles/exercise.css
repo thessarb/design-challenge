@@ -11,11 +11,3 @@
     margin-right: min(20px);
     margin-left: min(20px);
 }
-
-.exercisesmall{
-    height: 80%;
-    background-color: #1d204b;
-    border-radius: 17px;
-    position: relative;
-    top: 20%;
-}
