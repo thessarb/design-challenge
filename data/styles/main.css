@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .containersmall{
@@ -40,14 +40,15 @@ body{
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: min(20px);
-    margin-left: min(20px);
+    margin-right: 20px;
+    margin-left: 20px;
     box-shadow: 0 0 55px #05080f;
     background: linear-gradient(135deg, rgba(35,38,81,1) 0%, rgba(18,20,53,1) 100%);
 }
 
 .boardsmall{
     height: 70%;
+    z-index: 5;
     background: linear-gradient(135deg, rgba(87,70,234,1) 0%, rgba(46,37,125,1) 100%);
     border-radius: 17px;
 }
@@ -62,8 +63,8 @@ body{
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: min(20px);
-    margin-left: min(20px);
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .work{
@@ -105,50 +106,62 @@ body{
 .cardgradient{
     background: linear-gradient(135deg, rgba(35,38,81,1) 0%, rgba(18,20,53,1) 100%);
 }
-
-@media (min-width:1051px; max-width: 1390px) {
-    .board{
-        max-height: 300px;
-        max-width: 980px;
-        background-color: #1d204b;
-        border-radius: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-right: min(20px);
-        margin-left: min(20px);
+@media (min-width: 1036px) and (max-width: 1375px) {
+    .board {
+        min-height: 300px;
+        min-width: 980px;
+    }
+    .boardsmall{
+        height: 75%;
     }
 }
 
-@media (min-width:711px; max-width: 1050px) {
-    .board{
-        display: flex;
+@media (min-width:696px) and (max-width: 1035px) {
+    .board {
+        min-width: 640px;
+        min-height: 300px;
+    }
+    .boardsmall{
+        height: 80%;
     }
 }
-
-@media (max-width: 710px) {
-    .cards{
+@media (max-width: 695px) {
+    .board {
         height: 170px;
     }
-    .containersmall{
+
+    .boardsmall {
+        height: 75%;
+    }
+
+    .cards {
+        height: 170px;
+    }
+
+    .containersmall {
         height: 78%;
-        background-color: #1d204b;
         border-radius: 17px;
         position: relative;
         top: 22%;
     }
-    .work{
+
+    .work {
         background-position-y: -10px;
     }
-    .play{
+
+    .play {
         background-position-y: -5px;
     }
-    .study{
+
+    .study {
         background-position-y: -8px;
     }
-    .social{
+
+    .social {
         background-position-y: -15px;
     }
-    .selfcare{
+
+    .selfcare {
         background-position-y: -15px;
     }
 }
